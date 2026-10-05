@@ -178,17 +178,6 @@ Server/
 
 무기 · 특성 · 아티팩트 · 강화 수치는 모두 **데이터 파일(ScriptableObject)** 로 따로 두어, 코드를 고치지 않고 밸런스를 조정합니다. 데이터 파일 자체는 에셋이라 이 저장소에는 없습니다.
 
-### 먼저 볼 만한 파일
-
-| 파일 | 내용 |
-|---|---|
-| `Combat/TargetFinder.cs` | 사거리 안에서 방어선에 가장 가까운 적 찾기 |
-| `Combat/ProjectilePool.cs` | 투사체 풀링 |
-| `Inventory/InventoryBoard.cs` | 인벤토리 배치 · 회전 · 강화 처리 |
-| `System/WaveManager.cs` | 웨이브 진행 · 상점 전환 |
-| `System/RankingService.cs` | 익명 로그인 · 닉네임 등록 · 점수 제출 |
-| `Server/LeaderboardPolicy.ac` | 클라이언트 직접 쓰기 차단 |
-
 ---
 
 ## 권리 고지
